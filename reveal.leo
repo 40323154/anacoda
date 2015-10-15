@@ -278,7 +278,6 @@
 <v t="ibm.20150918175403.6" a="E"><vh>div class="slides"</vh>
 <v t="ibm.20150918175403.7"><vh>有關我的作業</vh></v>
 <v t="ibm.20150918175403.8"><vh>課程規劃</vh></v>
-<v t="ibm.20150918175403.9"><vh>作業規劃</vh></v>
 <v t="ibm.20150918175711.1"><vh>Git 操作</vh></v>
 <v t="ibm.20150918175951.1"><vh>心得</vh></v>
 </v>
@@ -2285,17 +2284,11 @@ g.es("pelican 執行完畢")</t>
           學號:40323154&lt;/p&gt;		
 &lt;/section&gt;
 	</t>
-<t tx="ibm.20150918175403.8">&lt;section id="hw-task-one"&gt;
-    &lt;h1&gt;課程規劃&lt;/h1&gt;
-    &lt;p&gt;教科書&lt;/p&gt;
-    &lt;p&gt;請參考 &lt;a href="http://openbookproject.net/thinkcs/python/english3e/"&gt;http://openbookproject.net/thinkcs/python/english3e/&lt;/a&gt;
-&lt;/section&gt;
-				</t>
-<t tx="ibm.20150918175403.9">&lt;section&gt;
+<t tx="ibm.20150918175403.8">&lt;section&gt;
     &lt;h1&gt;作業規劃&lt;/h1&gt;
     &lt;p&gt;第二週上課內容&lt;/p&gt;
 &lt;/section&gt;
-				</t>
+		</t>
 <t tx="ibm.20150918175711.1">&lt;section&gt;
     &lt;p&gt;幫助同架設github網站，在幫忙架設時也讓自己git指令更加熟悉&lt;/p&gt;
 &lt;/section&gt;</t>
