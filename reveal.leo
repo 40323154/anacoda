@@ -38,7 +38,7 @@
 <v t="amd.20150919114010.1"><vh>@path pelican\content</vh></v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="123.20151015145228.1"><vh>@button pelican content</vh></v>
-<v t="123.20151015145305.1" a="E"><vh>@path pelican\content</vh>
+<v t="123.20151015145305.1"><vh>@path pelican\content</vh>
 <v t="123.20151015141744.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww2.md</vh></v>
 <v t="123.20151015151713.1"><vh>@edit 2015cphww3.md</vh></v>
@@ -270,14 +270,14 @@
 </v>
 </v>
 </v>
-<v t="ibm.20150918175403.1" a="E"><vh>@clean cpw1.html</vh>
+<v t="ibm.20150918175403.1"><vh>@clean cpw1.html</vh>
 <v t="ibm.20150918175403.2"><vh>檔案說明</vh></v>
 <v t="ibm.20150918175403.3" a="E"><vh>html 標註</vh>
 <v t="ibm.20150918175403.4" a="E"><vh>body 標註</vh>
 <v t="ibm.20150918175403.5" a="E"><vh>div class="reveal"</vh>
 <v t="ibm.20150918175403.6" a="E"><vh>div class="slides"</vh>
-<v t="ibm.20150918175403.7"><vh>有關我的作業</vh></v>
 <v t="ibm.20150918175403.8"><vh>課程規劃</vh></v>
+<v t="ibm.20150918175403.7"><vh>有關我的作業</vh></v>
 <v t="ibm.20150918175711.1"><vh>Git 操作</vh></v>
 <v t="ibm.20150918175951.1"><vh>心得</vh></v>
 </v>
@@ -286,15 +286,15 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
 <v t="amd.20150915211351.5" a="E"><vh>div class="reveal"</vh>
 <v t="amd.20150915211351.6" a="E"><vh>div class="slides"</vh>
 <v t="amd.20150915211351.7"><vh>有關我的作業</vh></v>
-<v t="amd.20150915211351.9"><vh>課程規劃</vh></v>
 <v t="amd.20150915211351.12"><vh>Git 操作</vh></v>
+<v t="amd.20150915211351.9"><vh>課程規劃</vh></v>
 <v t="123.20151015132518.1"><vh>心得</vh></v>
 </v>
 </v>
