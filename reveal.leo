@@ -37,8 +37,11 @@
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1"><vh>@path pelican\content</vh></v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
-<v t="amd.20150919114035.1"><vh>@edit 2015cphww2.md</vh></v>
+<v t="123.20151015145228.1"><vh>@button pelican content</vh></v>
+<v t="123.20151015145305.1" a="E"><vh>@path pelican\content</vh>
 <v t="123.20151015141744.1"><vh>@edit 2015cphww1.md</vh></v>
+<v t="amd.20150919114035.1"><vh>@edit 2015cphww2.md</vh></v>
+</v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
 <v t="amd.20150913233943.2" a="E"><vh>html</vh>
 <v t="amd.20150913233943.3" a="E"><vh>head</vh>
@@ -264,7 +267,7 @@
 </v>
 </v>
 </v>
-<v t="ibm.20150918175403.1"><vh>@clean cpw1.html</vh>
+<v t="ibm.20150918175403.1" a="E"><vh>@clean cpw1.html</vh>
 <v t="ibm.20150918175403.2"><vh>檔案說明</vh></v>
 <v t="ibm.20150918175403.3" a="E"><vh>html 標註</vh>
 <v t="ibm.20150918175403.4" a="E"><vh>body 標註</vh>
@@ -555,6 +558,12 @@ Diff...
     自評: 75分  &lt;/p&gt;
 &lt;/section&gt;		
 </t>
+<t tx="123.20151015145228.1">@language python
+import os
+os.system('''pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-bootstrap3
+''')
+g.es("pelican 執行完畢")</t>
+<t tx="123.20151015145305.1"></t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
