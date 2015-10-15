@@ -41,6 +41,9 @@
 <v t="123.20151015145305.1" a="E"><vh>@path pelican\content</vh>
 <v t="123.20151015141744.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww2.md</vh></v>
+<v t="123.20151015151713.1"><vh>@edit 2015cphww3.md</vh></v>
+<v t="123.20151015151715.1"><vh>@edit 2015cphww4.md</vh></v>
+<v t="123.20151015151808.1"><vh>@edit 2015cphww5.md</vh></v>
 </v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
 <v t="amd.20150913233943.2" a="E"><vh>html</vh>
@@ -277,8 +280,7 @@
 <v t="ibm.20150918175403.8"><vh>課程規劃</vh></v>
 <v t="ibm.20150918175403.9"><vh>作業規劃</vh></v>
 <v t="ibm.20150918175711.1"><vh>Git 操作</vh></v>
-<v t="ibm.20150918175951.1"><vh>Jupyter 操作</vh></v>
-<v t="ibm.20150918181528.1"><vh>結論</vh></v>
+<v t="ibm.20150918175951.1"><vh>心得</vh></v>
 </v>
 </v>
 <v t="ibm.20150918175403.10"><vh>script</vh></v>
@@ -2059,18 +2061,22 @@ Code syntax highlighting courtesy of &lt;a href="http://softwaremaniacs.org/soft
 @others
 </t>
 <t tx="amd.20150915211351.12">&lt;section&gt;
-    &lt;h1&gt;利用github建立投影片&lt;/h1&gt;
-    &lt;p&gt;1. git clone github倉儲網址 -把倉儲內容複製下來&lt;/p&gt;
-    &lt;p&gt;2. cd 資料夾名 -進入資料夾&lt;/p&gt;
-    &lt;p&gt;3. git branch gh-pages -建立分支&lt;/p&gt;
-    &lt;p&gt;4. git checkout gh-pages -換分支&lt;/p&gt;
-    &lt;p&gt;5. 到老師的github上把reveal倉儲複製下來&lt;/p&gt;
-    &lt;p&gt;6. 再把複製下來的內容丟到自己git clone 下來的資料夾(除了README.md 和.git)&lt;/p&gt;
-    &lt;p&gt;7. git add-A 更改內容&lt;/p&gt;
-    &lt;p&gt;8. git commit -m"學號"&lt;/p&gt;
-    &lt;p&gt;9. git config --global user.name 確認帳號&lt;/p&gt;
-    &lt;p&gt;10. git config --global user.email 確認密碼&lt;/p&gt;
-    &lt;p&gt;11. git push original gh-pages 推到原本網站&lt;/p&gt;
+    &lt;h1&gt;建立github建立投影片步驟&lt;/h1&gt;
+    &lt;p&gt;1. 利用github建立投影片&lt;/p&gt;
+    &lt;p&gt;2. git clone github倉儲網址 -把倉儲內容複製下來&lt;/p&gt;
+    &lt;p&gt;3. cd 資料夾名 -進入資料夾&lt;/p&gt;
+    &lt;p&gt;4. git branch gh-pages -建立分支&lt;/p&gt;
+    &lt;p&gt;5. git checkout gh-pages -換分支&lt;/p&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+    &lt;p&gt;6. 到老師的github上把reveal倉儲複製下來&lt;/p&gt;
+    &lt;p&gt;7. 再把複製下來的內容丟到自己git clone 下來的資料夾(除了README.md 和.git)&lt;/p&gt;
+    &lt;p&gt;8. git add-A 更改內容&lt;/p&gt;
+    &lt;p&gt;9. git commit -m"學號"&lt;/p&gt;
+    &lt;p&gt;10. git config --global user.name 確認帳號&lt;/p&gt;
+    &lt;p&gt;11. git config --global user.email 確認密碼&lt;/p&gt;
+    &lt;p&gt;12. git push original gh-pages 推到原本網站&lt;/p&gt;
 &lt;/section&gt;		
 </t>
 <t tx="amd.20150915211351.15">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
@@ -2219,8 +2225,7 @@ ip.config.ProfileDir </t>
 <t tx="amd.20150919120205.1"></t>
 <t tx="amd.20150919124128.1">@language python
 import os
-os.system('''pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-bootstrap3
-''')
+os.system('''pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress''')
 g.es("pelican 執行完畢")</t>
 <t tx="ibm.20150918175403.1">@language xml
 @tabwidth -4
@@ -2274,8 +2279,10 @@ g.es("pelican 執行完畢")</t>
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;h1&gt;計算機程式&lt;/h1&gt;
-    &lt;p&gt;第1週教學內容&lt;/p&gt;		
+    &lt;h1&gt;電腦輔助設計與實習&lt;/h1&gt;
+    &lt;p&gt;班級:四設計二甲
+          姓名:蔡俊佶
+          學號:40323154&lt;/p&gt;		
 &lt;/section&gt;
 	</t>
 <t tx="ibm.20150918175403.8">&lt;section id="hw-task-one"&gt;
@@ -2286,29 +2293,15 @@ g.es("pelican 執行完畢")</t>
 				</t>
 <t tx="ibm.20150918175403.9">&lt;section&gt;
     &lt;h1&gt;作業規劃&lt;/h1&gt;
-    &lt;p&gt;影片內容&lt;/p&gt;
-    &lt;a href="https://www.youtube.com/watch?v=9uq3w6JJS00"&gt;Zero to hero with Python&lt;/a&gt;
+    &lt;p&gt;第二週上課內容&lt;/p&gt;
 &lt;/section&gt;
 				</t>
 <t tx="ibm.20150918175711.1">&lt;section&gt;
-    &lt;h1&gt;Git 操作&lt;/h1&gt;
-    &lt;p&gt;git clone&lt;/p&gt;
-    &lt;p&gt;git config --global user.name&lt;/p&gt;
-    &lt;p&gt;git config --global user.email&lt;/p&gt;
-    &lt;p&gt;git add -A&lt;/p&gt;
-    &lt;p&gt;git commit -m&lt;/p&gt;
-    &lt;p&gt;git push&lt;/p&gt;
+    &lt;p&gt;幫助同架設github網站，在幫忙架設時也讓自己git指令更加熟悉&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ibm.20150918175951.1">&lt;section&gt;
-    &lt;h1&gt;Jupyter 操作&lt;/h1&gt;
-    &lt;p&gt;啟動&lt;/p&gt;
-    &lt;p&gt;基本執行&lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="ibm.20150918181528.1">&lt;section&gt;
-    &lt;h1&gt;結論&lt;/h1&gt;
-    &lt;p&gt;自主開放學習&lt;/p&gt;
-    &lt;p&gt;線上教材&lt;/p&gt;
-    &lt;p&gt;影音教材&lt;/p&gt;
+    &lt;h1&gt;心得和自評&lt;/h1&gt;
+    &lt;p&gt;在幫助同學的過程當中，知道部分同學推成功出去時，卻出現404，後來才知道有可能是網速問題，需要等一下，就好了。&lt;/p&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
