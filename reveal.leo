@@ -562,7 +562,7 @@ Diff...
 </t>
 <t tx="123.20151015145228.1">@language python
 import os
-os.system('''pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-bootstrap3
+os.system('''pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress
 ''')
 g.es("pelican 執行完畢")</t>
 <t tx="123.20151015145305.1"></t>
